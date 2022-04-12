@@ -1,4 +1,5 @@
 let nome = "João"
+
 let idade = 17 
     console.log("Olá, " + nome)
 if (idade > 18){
