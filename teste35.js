@@ -5,14 +5,10 @@ e o segundo elemento é o maior dos parâmetros da função maxmin. */
 
 function maxmin(a, b, c, d, e){
 
-   array = [];
+	array = [a, b, c, d, e];
 
-   for(var i = 0; i < 5; i++){
-
-       return array.push(Math.min(maxmin).push(Math.max(maxmin)));
-    
-    }
-
-    return array
-
+	const minValue = Math.min(...array)
+	const maxValue = Math.max(...array)
+	
+    return [minValue, maxValue]
 }
