@@ -24,7 +24,5 @@ function calcularIdade(dataDeNascimento) {
  }
 
  function deixaEntrar(dataDeNascimento, censura) {
-
     return calcularIdade(dataDeNascimento, censura);
- 
  }

@@ -4,11 +4,8 @@ e o segundo elemento é o maior dos parâmetros da função maxmin. */
 
 
 function maxmin(a, b, c, d, e){
-
 	array = [a, b, c, d, e];
-
 	const minValue = Math.min(...array)
 	const maxValue = Math.max(...array)
-	
-    return [minValue, maxValue]
+	return [minValue, maxValue]
 }

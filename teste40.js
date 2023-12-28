@@ -7,14 +7,9 @@ Ela também deve retornar verdadeiro (true) caso o aluno atenda os requisitos, o
 
 
 function maiorAlto(array) {
-
     if(array[1] >= 18 && array[2] >=170){
-        
         return true
-    
-    } else {
-        
+    } else {    
         return false
     }
-
 }

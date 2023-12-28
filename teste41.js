@@ -19,23 +19,13 @@ var grupoB = [165, 167, 169, 160 ];
 var grupoC = [170, 187, 191, 171, 170 ];
 
 function zumbaClass(alunos) {
-
     for (var i = 0; i < alunos.length; i++) {
-  
         if (grupoA[i] > 150 && alunos[i] <= 159) {
-  
             grupoA.push(alunos[i])
-  
         } else if (grupoB[i] > 159 && alunos[i] < 170) {
-  
             grupoB.push(alunos[i])
-  
         } else if (grupoC[i] >= 170) {
-  
             grupoC.push(alunos[i])
-  
         }
-  
     }
-  
   }

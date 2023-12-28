@@ -4,16 +4,10 @@ Essa função não recebe nenhum parâmetro. Tudo que ela deve fazer é gerar e 
 
 
 function gerarDezenas(){
-    
     array = []
-
     for(var i = 0; i < 6; i++){
-
         array.push(Math.round(Math.random()*60))
-
     }
-
     return array
-
 }
 

@@ -24,30 +24,20 @@ function calcularNumeroDeEntradas(placa){
     var cont = 0;
 
   for (var i = 0 ; i < placas.length ; i++) {
-
-     if (placas[i] == placa) {
-
-        cont++;
-
-     }
-
-  }
-
-  return cont;
+   if (placas[i] == placa) {
+      cont++;
+   }
 }
-  
- function calcularValorDevido(placa){
+return cont;
+}  
+
+function calcularValorDevido(placa){
     var numEntradas = calcularNumeroDeEntradas(placa);
-
-  if (numEntradas <= 20) {
-
-     return 10.00 * numEntradas;
-
-  } else {
-
+    if (numEntradas <= 20) {
+      return 10.00 * numEntradas;
+   }else {
      return (200 + (numEntradas - 20) * 5);
-
-  }
+   }
 }
  
  /* Esse array é utilizado dentro das funções. Cada placa neste array representa uma entrada do respectivo veículo no estacionamento. Não é necessário alterar esse array. */
